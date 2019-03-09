@@ -6,24 +6,33 @@
   color: #252024;
 } */
 
-.spacer200 {
-    margin:200px;
-  }
+.spacer200 
+{
+  margin:200px;
+}
+
+.spacer100top
+{
+  margin-top:100px;
+}
   
-.spacer200top {
-margin-top: 200px;
+.spacer200top 
+{
+  margin-top: 200px;
 }
 
-.spacer200bottom {
-margin-bottom: 200px;
+.spacer200bottom 
+{
+  margin-bottom: 200px;
 }
 
-.spacer200sides {
-margin-left: 200px;
-margin-right: 200px;
+.spacer200sides 
+{
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
-/* Main page
+/* Header page
 --------------------------------*/
 
 .custom-jumbotron
@@ -80,6 +89,19 @@ margin-right: 200px;
   background: rgb(184, 77, 48);
   border: 2px solid white;
 }
+
+/* Profile
+--------------------------------*/
+.custom-profile-img
+{
+  border-radius:50%;
+}
+
+.custom-profile-icon
+{
+  font-size: 50px;
+}
+
 
 /* quotes
 --------------------------------*/

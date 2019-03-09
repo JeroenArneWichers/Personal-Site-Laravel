@@ -21,10 +21,10 @@
 
 <div class="container">
     <div class="row">
-        <div class="card col-md-12 p-3 spacer200top" >
-            <div class="row ">
+        <div class="card col-md-12 p-3 spacer200top border-0" >
+            <div class="row">
                 <div class="col-md-4">
-                    <img class="w-100" src="{{asset('img/profielfoto2.jpg')}}">
+                    <img class="w-100 rounded" src="{{asset('img/profielfoto2.jpg')}}">
                 </div>
                 <div class="col-md-8">
                     <div class="card-block">
@@ -34,36 +34,70 @@
                             <br><br>
                             Ik heb kennis en ervaring op het gebied van web development, bestuurskunde, overheidsmanagement, onderzoek en 
                             integriteit.</p>
+                        {{-- <p class="card-text text-justify"><i class="fa fa-briefcase custom-profile-icon"></i> WERKERVARING:</p>
+                        <p class="card-text text-justify">&nbsp &nbsp &nbsp &nbsp - Junior webdeveloper<br>
+                                                          &nbsp &nbsp &nbsp &nbsp - Onderzoeker<br>
+                                                          &nbsp &nbsp &nbsp &nbsp - Vrijwilliger</p>
+                        <p class="card-text text-justify"><i class="fa fa-chart-bar"></i> VAARDIGHEDEN:</p>
+                        <p class="card-text text-justify">&nbsp &nbsp &nbsp &nbsp - Web development<br>
+                                                          &nbsp &nbsp &nbsp &nbsp - Bestuurskunde & overheidsmanagement<br>
+                                                          &nbsp &nbsp &nbsp &nbsp - Onderzoek<br>
+                                                          &nbsp &nbsp &nbsp &nbsp - Integriteit</p>
+                        <p class="card-text text-justify"><i class="fa fa-graduation-cap"></i> OPLEIDING:</p>
+                        <p class="card-text text-justify">&nbsp &nbsp &nbsp &nbsp - HBO Bestuurskunde en Overheidsmanagement Saxion, Enschede</p> --}}
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-    
-<div class="container">
-    <div class="row spacer200top spacer200bottom">
-        <div class="card col-md-4" data-aos="zoom-out-right" data-aos-duration="1500">
-            <img src="{{asset('img/saxionlogo.jpg')}}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h4 class="card-title">OPLEIDING</h4>
-                <ul>HBO Bestuurskunde en Overheidsmanagement Saxion, Enschede</ul>
+            <div class="row spacer100top">
+                <div class="card col-md-4 border-0" data-aos="zoom-out-right" data-aos-duration="1500">
+                        <i class="fa fa-briefcase custom-profile-icon text-center"></i>
+                    <p class="card-text text-justify text-center">WERKERVARING</p>
+                    <p class="card-text text-justify">&nbsp &nbsp &nbsp &nbsp - Junior webdeveloper<br>
+                                                        &nbsp &nbsp &nbsp &nbsp - Onderzoeker<br>
+                                                        &nbsp &nbsp &nbsp &nbsp - Vrijwilliger</p>
+                </div>
+                <div class="card col-md-4 border-0" data-aos="zoom-out-right" data-aos-duration="1500">
+                        <i class="fa fa-chart-bar custom-profile-icon text-center"></i>
+                    <p class="card-text text-justify text-center"> VAARDIGHEDEN</p>
+                    <p class="card-text text-justify">&nbsp &nbsp &nbsp &nbsp - Web development<br>
+                                                        &nbsp &nbsp &nbsp &nbsp - Bestuurskunde & overheidsmanagement<br>
+                                                        &nbsp &nbsp &nbsp &nbsp - Onderzoek<br>
+                                                        &nbsp &nbsp &nbsp &nbsp - Integriteit</p>
+                </div>
+                <div class="card col-md-4 border-0" data-aos="zoom-out-right" data-aos-duration="1500">
+                        <i class="fa fa-graduation-cap custom-profile-icon text-center"></i>
+                    <p class="card-text text-justify text-center"> OPLEIDING</p>
+                    <p class="card-text text-justify"> - HBO Bestuurskunde en Overheidsmanagement</p>
+                </div>
             </div>
-        </div>
-        <div class="card col-md-4">
-            <img src="{{asset('img/juniorwebdeveloper.jpeg')}}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h4 class="card-title">VAARDIGHEDEN</h4>
-                <p class="card-text">Kennis en ervaring op het gebied van bestuurskunde, overheidsmanagement,
-                    onderzoek en integriteit. <br><br>Ook bezit ik de nodige skills voor de 21ste eeuw.</p>
+            <div class="row spacer100top">
+                <div class="card col-md-12 border-0">
+                    <h1 class="text-center">EIGENSCHAPPEN</h1>
+                </div>
             </div>
-        </div>
-        <div class="card col-md-4">
-            <img src="{{asset('img/codegorillalogo.png')}}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h4 class="card-title">WERKERVARING</h4>
-                <ul>- Junior webdeveloper<br>- Onderzoeker<br>- vrijwilliger</ul>
+            <div class="row">
+                <div class="card col-md-3" data-aos="zoom-out-right" data-aos-duration="1500">
+                        <i class="fa fa-briefcase custom-profile-icon text-center"></i>
+                    <p class="card-text text-justify text-center">WERKERVARING</p>
+                    <p class="card-text text-justify">&nbsp &nbsp &nbsp &nbsp - Junior webdeveloper<br>
+                                                        &nbsp &nbsp &nbsp &nbsp - Onderzoeker<br>
+                                                        &nbsp &nbsp &nbsp &nbsp - Vrijwilliger</p>
+                </div>
+                <div class="card col-md-3 ml-4 mr-4" data-aos="zoom-out-right" data-aos-duration="1500">
+                        <i class="fa fa-chart-bar custom-profile-icon text-center"></i>
+                    <p class="card-text text-justify text-center"> VAARDIGHEDEN</p>
+                    <p class="card-text text-justify">&nbsp &nbsp &nbsp &nbsp - Web development<br>
+                                                        &nbsp &nbsp &nbsp &nbsp - Bestuurskunde & overheidsmanagement<br>
+                                                        &nbsp &nbsp &nbsp &nbsp - Onderzoek<br>
+                                                        &nbsp &nbsp &nbsp &nbsp - Integriteit</p>
+                </div>
+                <div class="card col-md-3" data-aos="zoom-out-right" data-aos-duration="1500">
+                        <i class="fa fa-graduation-cap custom-profile-icon text-center"></i>
+                    <p class="card-text text-justify text-center"> OPLEIDING</p>
+                    <p class="card-text text-justify"> - HBO Bestuurskunde en Overheidsmanagement</p>
+                </div>
             </div>
+                    
         </div>
     </div>
 </div>
