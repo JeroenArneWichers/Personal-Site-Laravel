@@ -1,0 +1,92 @@
+html 
+{
+    scroll-behavior: smooth;
+}
+
+.custom-navbar-1
+{
+    padding-top: 25px;
+    background-color: rgb(184, 77, 48);
+}
+
+.custom-navbar-2
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #B46D5A;
+}
+
+.custom-navbar-brand-text
+{
+    color: black;
+    font-weight: 700;
+}
+
+.custom-navbar-link-text
+{
+    color: black;
+}
+
+.custom-footer
+{
+    background-color: rgb(184, 77, 48);
+    color: white;
+}
+
+.custom-footer-text
+{
+    color: white;
+}
+
+a:hover 
+{
+    color: white;
+}
+
+.nav-link:hover 
+{
+    color: white;
+    background-color:  rgb(184, 77, 48);
+    transition-timing-function: ease-in;
+    transition: 0.5s;
+}
+
+.fas
+{
+    color: white;
+    border: 1px solid white;
+    border-radius: .25rem;
+    padding: .25rem .75rem;
+}
+
+.spacer200top 
+{
+    margin-top: 200px;
+}
+
+@media (min-width: 992px){
+    .custom-navbar-1 {
+        padding-left : 20em;
+        padding-right : 20em;
+    }
+}
+
+@media (min-width: 992px){
+    .custom-navbar-2 {
+        padding-left : 20em;
+        padding-right : 20em;
+    }
+}
+
+#socialgroup{
+    padding-left: 15px;
+}
+#social{
+   color: white;
+   padding-left: 10px;
+}
+
+#social:hover{
+    color: #0389ce;
+    text-decoration: none;
+ }
