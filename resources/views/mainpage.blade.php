@@ -21,7 +21,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0" >
+        <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0" data-aos="zoom-out-down" data-aos-duration="3000">
             <div class="row">
                 <div class="col-md-4">
                     <img class="w-100 rounded" src="{{asset('img/profielfoto2.jpg')}}">
@@ -38,14 +38,14 @@
                 </div>
             </div>
             <div class="row spacer100top">
-                <div class="card col-md-4 border-0" data-aos="zoom-out-right" data-aos-duration="1500">
+                <div class="card col-md-4 border-0" data-aos="zoom-out-right" data-aos-duration="3000">
                         <i class="fa fa-briefcase custom-profile-icon text-center"></i>
                     <p class="card-text text-justify text-center">WERKERVARING</p>
                     <p class="card-text text-justify">&nbsp &nbsp &nbsp &nbsp - Junior webdeveloper<br>
                                                         &nbsp &nbsp &nbsp &nbsp - Onderzoeker<br>
                                                         &nbsp &nbsp &nbsp &nbsp - Vrijwilliger</p>
                 </div>
-                <div class="card col-md-4 border-0" data-aos="zoom-out-right" data-aos-duration="1500">
+                <div class="card col-md-4 border-0" data-aos="zoom-out-down" data-aos-duration="3000">
                         <i class="fa fa-chart-bar custom-profile-icon text-center"></i>
                     <p class="card-text text-justify text-center"> VAARDIGHEDEN</p>
                     <p class="card-text text-justify">&nbsp &nbsp &nbsp &nbsp - Web development<br>
@@ -53,7 +53,7 @@
                                                         &nbsp &nbsp &nbsp &nbsp - Onderzoek<br>
                                                         &nbsp &nbsp &nbsp &nbsp - Integriteit</p>
                 </div>
-                <div class="card col-md-4 border-0" data-aos="zoom-out-right" data-aos-duration="1500">
+                <div class="card col-md-4 border-0" data-aos="zoom-out-left" data-aos-duration="3000">
                         <i class="fa fa-graduation-cap custom-profile-icon text-center"></i>
                     <p class="card-text text-justify text-center"> OPLEIDING</p>
                     <p class="card-text text-justify"> - HBO Bestuurskunde en Overheidsmanagement</p>
@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="row justify-content-center spacer25top">
-                <div class="card col-md-3 custom-card-border pb-4 pt-4" data-aos="zoom-out-right" data-aos-duration="1500">
+                <div class="card col-md-3 custom-card-border pb-4 pt-4" data-aos="zoom-out-right" data-aos-duration="3000">
                         <i class="fa fa-comments custom-profile-icon text-center"></i>
                     <p class="card-text text-justify text-center">TALEN</p>
                     <table>
@@ -84,7 +84,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="card col-md-3 ml-4 mr-4 custom-card-border pb-4 pt-4" data-aos="zoom-out-right" data-aos-duration="1500">
+                <div class="card col-md-3 ml-4 mr-4 custom-card-border pb-4 pt-4" data-aos="zoom-out-down" data-aos-duration="3000">
                         <i class="fa fa-desktop custom-profile-icon text-center"></i>
                     <p class="card-text text-justify text-center"> 21ST CENTURY SKILLS</p>
                     <table>
@@ -130,7 +130,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class="card col-md-3 custom-card-border pb-4 pt-4" data-aos="zoom-out-right" data-aos-duration="1500">
+                <div class="card col-md-3 custom-card-border pb-4 pt-4" data-aos="zoom-out-left" data-aos-duration="3000">
                         <i class="fa fa-certificate custom-profile-icon text-center"></i>
                     <p class="card-text text-justify text-center"> KWALITEITEN</p>
                     <table>
@@ -178,9 +178,9 @@
 <div class="container">
     <div class="row">
         <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0" >
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-8">
-                    <div class="card-block">
+                    <div class="card-block" data-aos="zoom-out-right" data-aos-duration="3000">
                         <h2 class="card-title">ICT VAARDIGHEDEN</h2>
                         <p>Ik ben enkele zeer belangrijke ICT vaardigheden machting.<br><br>
                             Zo heb ik:<br>
@@ -193,7 +193,7 @@
                             en probleemoplossend digitaal te werken.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="3000">
                     <img class="w-100 rounded" src="{{asset('img/welcome/ictvaardigheden.jpeg')}}">
                 </div>
             </div>
@@ -213,13 +213,13 @@
 
 <div class="container">
     <div class="row">
-        <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0" >
-            <div class="row">
-                <div class="col-md-4">
+        <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0">
+            <div class="row align-items-center">
+                <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="3000">
                     <img class="w-100 rounded" src="{{asset('img/welcome/politiek.jpg')}}">
                 </div>
                 <div class="col-md-8">
-                    <div class="card-block">
+                    <div class="card-block" data-aos="zoom-out-left" data-aos-duration="3000">
                         <h2 class="card-title">BELEIDSKUNDE VAARDIGHEDEN</h2>
                         <p>Tijdens mijn opleiding heb ik ervaring opgedaan op vele 
                                 facetten van bestuurskunde en overheidsmanagement.</p>
@@ -251,9 +251,9 @@
 <div class="container">
     <div class="row">
         <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0" >
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-8">
-                    <div class="card-block">
+                    <div class="card-block" data-aos="zoom-out-right" data-aos-duration="3000">
                         <h2 class="card-title">TAAL VAARDIGHEDEN</h2>
                         <p>- Nederlands is mijn moedertaal.</p>
                         <p>- Op het gebied van Engels ben ik zeer vaardig. Qua spreken en schrijven 
@@ -267,7 +267,7 @@
                             zijn allemaal in het Engels.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="3000">
                     <img class="w-100 rounded" src="{{asset('img/welcome/debating.jpg')}}">
                 </div>
             </div>
@@ -288,12 +288,12 @@
 <div class="container">
     <div class="row">
         <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0" >
-            <div class="row">
-                <div class="col-md-4">
+            <div class="row align-items-center">
+                <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="3000">
                     <img class="w-100 rounded" src="{{asset('img/welcome/presenteren.jpeg')}}">
                 </div>
                 <div class="col-md-8">
-                    <div class="card-block">
+                    <div class="card-block" data-aos="zoom-out-left" data-aos-duration="3000">
                         <h2 class="card-title">MANAGEMENT VAARDIGHEDEN</h2>
                         <p>Ik heb uitgebreide organisatorische- managementvaardigheden opgedaan tijdens mijn 
                             studies. Tijdens projecten waar samenwerking belangrijk is, had ik vaak een 
@@ -319,9 +319,9 @@
 <div class="container">
     <div class="row">
         <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0" >
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-md-8">
-                    <div class="card-block">
+                    <div class="card-block" data-aos="zoom-out-right" data-aos-duration="3000">
                         <h1 class="card-title">WERKERVARING</h1>
                         <h2 class="card-title">Junior webdeveloper<br>
                                 CodeGorilla, Enschede<br>
@@ -337,7 +337,7 @@
                             &emsp;- Romeins Museum: Laravel, Bootstrap, HTML en CSS.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="3000">
                     <img class="w-100 rounded" src="{{asset('img/welcome/codegorillalogo.png')}}">
                 </div>
             </div>
@@ -358,11 +358,11 @@
 <div class="container">
     <div class="row">
         <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0" >
-            <div class="row">
-                    <div class="col-md-4">
+            <div class="row align-items-center">
+                    <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="3000">
                         <img class="w-100 rounded" src="{{asset('img/welcome/saxionlogo.jpg')}}">
                     </div>
-                <div class="col-md-8">
+                <div class="col-md-8" data-aos="zoom-out-left" data-aos-duration="3000">
                     <div class="card-block">
                         <h1 class="card-title">WERKERVARING</h1>
                         <h2 class="card-title">Onderzoeker<br>
@@ -402,8 +402,8 @@
 <div class="container">
     <div class="row">
         <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0" >
-            <div class="row">
-                <div class="col-md-8">
+            <div class="row align-items-center">
+                <div class="col-md-8" data-aos="zoom-out-right" data-aos-duration="3000">
                     <div class="card-block">
                         <h1 class="card-title">WERKERVARING</h1>
                         <h2 class="card-title">Vrijwilliger<br>
@@ -427,7 +427,7 @@
                         &emsp;- contacten met de klanten en (potentieel) nieuwe leden.</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-out-left" data-aos-duration="3000">
                     <img class="w-100 rounded" src="{{asset('img/welcome/sdvvlogo.jpg')}}">
                 </div>
             </div>
@@ -449,7 +449,7 @@
 
 <div class="container">
     <div class="row spacer200top">
-        <div class="card col-md-12 border-0">
+        <div class="card col-md-12 border-0" data-aos="zoom-out-down" data-aos-duration="3000">
             <h1 class="text-center">PORTFOLIO</h1>
             <p>Dit is mijn portfolio pagina. Je kunt hier een kort inzicht krijgen op het 
                 werk dat ik tot nu toe gedaan heb. Elke button linkt door naar de Github locatie.</p>
@@ -457,46 +457,51 @@
         </div>
     </div>
     <div class="row spacer25top">
-        <div class="card col-md-3 border-0">
+        <div class="card col-md-3 border-0" data-aos="zoom-out-up" data-aos-duration="3000">
             <img src="{{asset('img/welcome/persoonlijke-site-voorpagina.jpg')}}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Deze site</h5>
                 <p class="card-text">Deze pagina. Gemaakt met Laravel.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="https://github.com/JeroenArneWichers/Personal-Site-Laravel" target="_blank" class="btn btn-block custom-btn">Github</a>
+                <a href="#" target="_blank" class="btn btn-block custom-btn">Live</a>
             </div>
         </div>
-        <div class="card col-md-3 border-0">
+        <div class="card col-md-3 border-0" data-aos="zoom-out-up" data-aos-duration="1500">
             <img src="{{asset('img/welcome/calculator-voorblad.jpg')}}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Rekenmachine</h5>
                 <p class="card-text">Digitale rekenmachine gemaakt met JavaScript.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="https://github.com/JeroenArneWichers/calculator" target="_blank" class="btn btn-block custom-btn">Github</a>
+                <a href="#" class="btn btn-block custom-btn">Live</a>
             </div>
         </div>
-        <div class="card col-md-3 border-0">
+        <div class="card col-md-3 border-0" data-aos="zoom-out-up" data-aos-duration="3000">
             <img src="{{asset('img/welcome/contactlist-codegorilla-frontpage.jpg')}}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Adresboek</h5>
                 <p class="card-text">Een simpele website gemaakt met JavaScript.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="https://github.com/JeroenArneWichers/contactlist-codegorilla" target="_blank" class="btn btn-block custom-btn">Github</a>
+                <a href="#" class="btn btn-block custom-btn">Live</a>
             </div>
         </div>
-        <div class="card col-md-3 border-0">
+        <div class="card col-md-3 border-0" data-aos="zoom-out-up" data-aos-duration="2000">
             <img src="{{asset('img/welcome/pong-screenshot.jpg')}}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Pong</h5>
                 <p class="card-text">Klassiek spel uit de jaren '70 gemaakt met JavaScript.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="https://github.com/JeroenArneWichers/pong" target="_blank" class="btn btn-block custom-btn">Github</a>
+                <a href="https://jw-pong.herokuapp.com/" target="_blank" class="btn btn-block custom-btn">Live</a>
             </div>
         </div>
     </div>
     <div class="row spacer25top spacer200bottom">
-        <div class="card col-md-3 border-0">
-            <img src="{{asset('img/welcome/pong-screenshot.jpg')}}" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Pong</h5>
-                <p class="card-text">Klassiek spel uit de jaren '70 gemaakt met JavaScript.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="card col-md-3 border-0" data-aos="zoom-out-up" data-aos-duration="1500">
+            <img src="{{asset('img/welcome/webshop-laravel.jpg')}}" class="card-img-top" alt="...">
+            <div class="card-body ">
+                <h5 class="card-title">Webshop</h5>
+                <p class="card-text">Een webshop met Romeins thema. Gemaakt in Laravel.</p>
+                <a href="https://github.com/JeroenArneWichers/webshop-laravel" target="_blank" class="btn custom-btn btn-block"> Github</a>
+                <a href="https://roman-webshop-laravel.herokuapp.com/" target="_blank" class="btn btn-block custom-btn"> Live</a>
             </div>
         </div>
     </div>
@@ -512,9 +517,20 @@
     </div>
 </section>
 
-
-
-
+<div class="container">
+    <div class="row spacer200top">
+        <div class="card col-md-12 border-0" data-aos="zoom-out-up" data-aos-duration="3000">
+            <h1 class="text-center">CONTACT</h1>
+            <p>Dit is mijn contact pagina. Stuur me een @mail om contact met met op te nemen. Je kunt hier 
+                ook mijn Linekdin checken. Ik zou het ook gaaf vinden als je mijn Github bijdragen wilt bekijken. 
+                Al mijn werk staat daar op. Van het allereerste begin tot de meest flitsende codes die ik kan maken.</p>
+                <p class="text-center"><i class="fa fa-envelope text-center"></i>&emsp;jwichers@hotmail.com</p>
+                <div class="text-center custom-contact-icon mt-4">
+                <a href="https://www.linkedin.com/in/jeroen-wichers-35a55051/" target="_blank" class="fab fa-linkedin mr-2"></a>
+                <a href="https://github.com/JeroenArneWichers" target="_blank" class="fab fa-github ml-2"></a>
+                </div>
+        </div>
+    </div>
 </div>
-  
+
 @endsection

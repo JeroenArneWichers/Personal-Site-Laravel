@@ -147,3 +147,22 @@
 }
 
 /**/
+.custom-contact-icon a
+{
+  font-size: 50px;
+  color:rgb(184, 77, 48);
+}
+
+.custom-btn
+{
+  background-color: #B46D5A;
+  color: white;
+  /* width: auto;
+  height: 33px; */
+}
+
+.custom-btn:hover 
+{
+  background-color:rgb(184, 77, 48);
+  color: white;
+}

@@ -17,6 +17,9 @@
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     
+    <!-- animate on scroll -->	
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <title>@yield('title', 'Jeroen Arne Wichers')</title>
 
   </head>
@@ -74,12 +77,12 @@
 
 
 <footer class="custom-footer spacer200top">
-<div class="container">
+<div class="container justify-content-center">
     <div class="row mt-5 pt-4 pb-3">
         <div class="col-md-4 col-xl-5">
             <div class="pr-xl-4">
-            <p>Iedereen kan wel wat hulp gebruiken.</p>
-            <p class="custom-footer-text"><span>©  </span><span class="copyright-year">2019</span><span> </span><span>Klus Hulp Twente</span><span>. </span><span>All Rights Reserved.</span></p>
+            <p>PERSOONLIJKE SITE JEROEN ARNE WICHERS.</p>
+            <p class="custom-footer-text"><span>©  </span><span class="copyright-year">2019</span><span> </span><span>Jeroen Arne Wichers</span><span>. </span><span>All Rights Reserved.</span></p>
             </div>
         </div>
         <div class="col-md-4">
@@ -90,14 +93,10 @@
                     <a id="social" href="https://www.linkedin.com/" class="fab fa-linkedin fa-lg"></a>
                 </p>
                 <p>    
-                    <a id="social" class="custom-footer-text" href="mailto:#">info@klushulptwente.nl</a>
+                    <a id="social" class="custom-footer-text" href="mailto:jwichers@hotmail.com">jwichers@hotmail.com</a>
                 </p>
             </div>      
         </div> 
-        <div class="col-md-4 col-xl-3">
-            <a class="nav-link custom-footer-text" href="/admin/login">ADMIN LOGIN</a>
-            <a class="nav-link custom-footer-text" href="/admin">ADMIN PORTAL</a>
-        </div>
     </div>
 </div>
 </footer>
