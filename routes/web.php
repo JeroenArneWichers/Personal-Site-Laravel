@@ -13,3 +13,17 @@
 
 
 Route::get('/', 'MainpageController@index');
+Route::post('/', function (Request $request) 
+{
+    
+});
+
+// Route::get('/contact', function () 
+// {
+//     return view('contact');
+// });
+
+// Route::post('/contact', function (Request $request) 
+// {
+    
+// });

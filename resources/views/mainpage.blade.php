@@ -17,6 +17,9 @@
         <a href="#about" class="btn custom-button">Leer me kennen</a>
     </div>
 </div>
+<div class="jumbotron custom-jumbotron-border">
+
+</div>
 </section>
 
 <div class="container">
@@ -522,13 +525,29 @@
         <div class="card col-md-12 border-0" data-aos="zoom-out-up" data-aos-duration="3000">
             <h1 class="text-center">CONTACT</h1>
             <p>Dit is mijn contact pagina. Stuur me een @mail om contact met met op te nemen. Je kunt hier 
-                ook mijn Linekdin checken. Ik zou het ook gaaf vinden als je mijn Github bijdragen wilt bekijken. 
-                Al mijn werk staat daar op. Van het allereerste begin tot de meest flitsende codes die ik kan maken.</p>
-                <p class="text-center"><i class="fa fa-envelope text-center"></i>&emsp;jwichers@hotmail.com</p>
-                <div class="text-center custom-contact-icon mt-4">
-                <a href="https://www.linkedin.com/in/jeroen-wichers-35a55051/" target="_blank" class="fab fa-linkedin mr-2"></a>
-                <a href="https://github.com/JeroenArneWichers" target="_blank" class="fab fa-github ml-2"></a>
+            ook mijn Linekdin checken. Ik zou het ook gaaf vinden als je mijn Github bijdragen wilt bekijken. 
+            Al mijn werk staat daar op. Van het allereerste begin tot de meest flitsende codes die ik kan maken.</p>
+            <p class="text-center"><i class="fa fa-envelope text-center"></i>&emsp;jwichers@hotmail.com</p>
+            <div class="text-center custom-contact-icon mt-4">
+            <a href="https://www.linkedin.com/in/jeroen-wichers-35a55051/" target="_blank" class="fab fa-linkedin mr-2"></a>
+            <a href="https://github.com/JeroenArneWichers" target="_blank" class="fab fa-github ml-2"></a>
+            </div>
+            <form action="{{ url('/contact') }}" method="post">
+                @csrf
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name" class="form-control">
                 </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea name="content" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
     </div>
 </div>
