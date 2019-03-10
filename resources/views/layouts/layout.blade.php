@@ -39,33 +39,33 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link custom-navbar-link-text" href="/">Home</a>
+                    <a class="nav-link custom-navbar-link-text font-weight-bold" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-navbar-link-text" href="/rules">Persoonlijk profiel</a>
+                    <a class="nav-link custom-navbar-link-text font-weight-bold" href="/rules">Persoonlijk profiel</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle custom-navbar-link-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle custom-navbar-link-text font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Werkervaring
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="https://poolconfigurator.herokuapp.com" target="_blank">Zwembad configurator</a>
+                      <a class="dropdown-item font-weight-bold" href="https://poolconfigurator.herokuapp.com" target="_blank">Zwembad configurator</a>
                   </div>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle custom-navbar-link-text" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle custom-navbar-link-text font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Vaardigheden
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="https://poolconfigurator.herokuapp.com" target="_blank">Zwembad configurator</a>
+                      <a class="dropdown-item font-weight-bold" href="https://poolconfigurator.herokuapp.com" target="_blank">Zwembad configurator</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-navbar-link-text" href="/jobs">Opleidingen</a>
+                    <a class="nav-link custom-navbar-link-text font-weight-bold" href="/jobs">Opleidingen</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link custom-navbar-link-text" href="/about">Contact</a>
+                    <a class="nav-link custom-navbar-link-text font-weight-bold" href="/about">Contact</a>
                 </li>
             </ul>
         </div>

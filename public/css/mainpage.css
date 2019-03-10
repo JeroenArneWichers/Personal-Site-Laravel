@@ -16,6 +16,11 @@
   margin-top:100px;
 }
 
+.spacer100bottom
+{
+  margin-bottom:100px;
+}
+
 .spacer25top
 {
   margin-top:25px;
@@ -72,6 +77,7 @@
   transform: translate(-50%,-50%);
   border: 6px solid white;
   padding: 10px;
+  background-color: rgb(184, 77, 48);
 }
 
 #hero a 
@@ -94,6 +100,7 @@
   border-radius: 50px;
   border: 2px solid #fff;
   color: #fff;
+  background-color: #B46D5A;
 }
 
 .custom-button:hover 
@@ -153,7 +160,8 @@
   }
 }
 
-/**/
+/* Random
+--------------------------------*/
 .custom-contact-icon a
 {
   font-size: 50px;
@@ -172,4 +180,9 @@
 {
   background-color:rgb(184, 77, 48);
   color: white;
+}
+
+.custom-contact-form
+{
+  background-color: #B46D5A;
 }

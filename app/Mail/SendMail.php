@@ -7,18 +7,19 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class ContactMail extends Mailable
+class SendMail extends Mailable
 {
     use Queueable, SerializesModels;
+    public $data;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct(Request $contact)
+    public function __construct($data)
     {
-        $this->contact = $contact;
+        $this->data = $data;
     }
 
     /**
@@ -29,8 +30,10 @@ class ContactMail extends Mailable
     public function build()
     {
         return $this
-        ->to(config('mail.from.address'))
-        ->subject('JeroenWichers Inquiry')
-        ->view('emails.contact');
+        ->from('jeroenarnewichers@herokuapp.com')
+        ->subject('Contact Formulier Persoonlijke Site')
+        ->view('dynamic_email_template')
+        ->with('data', $this->data);
     }
 }
+?>

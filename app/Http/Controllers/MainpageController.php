@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SendMail;
 
 class MainpageController extends Controller
 {
@@ -80,5 +83,25 @@ class MainpageController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    function send(Request $request)
+    {
+        $this->validate($request,
+        [
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' => 'required'
+        ]);
+
+        $data = array 
+        (
+            'name' => $request->name,
+            'email' => $request->email,
+            'message' => $request->message
+        );
+
+        Mail::to('jwichers@hotmail.com')->send(new SendMail($data));
+        return back()->with('success', 'Bedankt voor de mail. Ik zal zo spoedig mogelijk contact met u opnemen.');
     }
 }

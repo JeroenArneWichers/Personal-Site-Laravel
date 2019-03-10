@@ -18,13 +18,12 @@
     </div>
 </div>
 <div class="jumbotron custom-jumbotron-border">
-
 </div>
 </section>
 
 <div class="container">
     <div class="row">
-        <div class="card col-md-12 p-3 spacer200top spacer200bottom border-0" data-aos="zoom-out-down" data-aos-duration="3000">
+        <div class="card col-md-12 p-3 spacer100top spacer200bottom border-0" data-aos="zoom-out-up" data-aos-duration="3000">
             <div class="row">
                 <div class="col-md-4">
                     <img class="w-100 rounded" src="{{asset('img/profielfoto2.jpg')}}">
@@ -518,12 +517,13 @@
             </div>
         </div>
     </div>
-</section>
+</section> 
 
 <div class="container">
     <div class="row spacer200top">
-        <div class="card col-md-12 border-0" data-aos="zoom-out-up" data-aos-duration="3000">
-            <h1 class="text-center">CONTACT</h1>
+        {{-- <div class="card col-md-12 border-0" data-aos="zoom-out-up" data-aos-duration="3000"> --}}
+        <div class="card col-md-12 border-0">
+            <h1 id="form-anchor" class="text-center">CONTACT</h1>
             <p>Dit is mijn contact pagina. Stuur me een @mail om contact met met op te nemen. Je kunt hier 
             ook mijn Linekdin checken. Ik zou het ook gaaf vinden als je mijn Github bijdragen wilt bekijken. 
             Al mijn werk staat daar op. Van het allereerste begin tot de meest flitsende codes die ik kan maken.</p>
@@ -532,21 +532,39 @@
             <a href="https://www.linkedin.com/in/jeroen-wichers-35a55051/" target="_blank" class="fab fa-linkedin mr-2"></a>
             <a href="https://github.com/JeroenArneWichers" target="_blank" class="fab fa-github ml-2"></a>
             </div>
-            <form action="{{ url('/contact') }}" method="post">
-                @csrf
+            @if (count($errors) > 0)
+                <div class="alert alert-danger spacer25top">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+                </ul>
+                </div>
+            @endif
+            @if ($message = Session::get('success'))
+            <div class="alert alert-success alert-block spacer25top">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                        <strong>{{ $message }}</strong>
+            </div>
+            @endif
+            <form class="spacer25top" method="post" action="{{url('sendemail/send#form-anchor')}}">
+                {{ csrf_field() }}
                 <div class="form-group">
-                    <label>Name</label>
-                    <input type="text" name="name" class="form-control">
+                    <label class="font-weight-bold">Plaats hier uw naam</label>
+                    <input type="text" name="name" class="form-control" value="" />
                 </div>
                 <div class="form-group">
-                    <label>Email</label>
-                    <input type="email" name="email" class="form-control">
+                    <label class="font-weight-bold">Plaats hier uw @mail</label>
+                    <input type="text" name="email" class="form-control" value="" />
                 </div>
                 <div class="form-group">
-                    <label>Message</label>
-                    <textarea name="content" class="form-control"></textarea>
+                    <label class="font-weight-bold">Plaats uw bericht hier</label>
+                    <textarea name="message" class="form-control"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="form-group">
+                    <input type="submit" name="send" class="btn custom-btn btn-block" value="Send" />
+                </div>
             </form>
         </div>
     </div>
