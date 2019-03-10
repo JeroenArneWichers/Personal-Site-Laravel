@@ -27,7 +27,8 @@
   <header>
     <nav class="navbar navbar-expand-lg custom-navbar-1">
         <a class="navbar-brand custom-navbar-brand-text" href="/">
-            <img src="../img/layout/nodlogo2.png" width =60px height=50px alt="">
+            {{-- <img src="../img/layout/nodlogo2.png" id="custom-brand-logo" width =60px height=50px alt=""> --}}
+            <img src="../img/layout/romanleaves.svg" id="custom-brand-logo" width =60px height=50px alt="">
             JEROEN ARNE WICHERS
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,30 +43,35 @@
                     <a class="nav-link custom-navbar-link-text font-weight-bold" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-navbar-link-text font-weight-bold" href="/rules">Persoonlijk profiel</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle custom-navbar-link-text font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Werkervaring
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item font-weight-bold" href="https://poolconfigurator.herokuapp.com" target="_blank">Zwembad configurator</a>
-                  </div>
+                    <a class="nav-link custom-navbar-link-text font-weight-bold" href="#persoonlijk-profiel">Persoonlijk profiel</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle custom-navbar-link-text font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Vaardigheden
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item font-weight-bold" href="https://poolconfigurator.herokuapp.com" target="_blank">Zwembad configurator</a>
+                      <a class="dropdown-item font-weight-bold" href="#ICT-vaardigheden">ICT vaardigheden</a>
+                      <a class="dropdown-item font-weight-bold" href="#beleids-vaardigheden">Beleids vaardigheden</a>
+                      <a class="dropdown-item font-weight-bold" href="#taal-vaardigheden">Taal vaardigheden</a>
+                      <a class="dropdown-item font-weight-bold" href="#management-vaardigheden">Management vaardigheden</a>
                   </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle custom-navbar-link-text font-weight-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Werkervaring
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item font-weight-bold" href="#junior-webdeveloper">Junior webdeveloper</a>
+                        <a class="dropdown-item font-weight-bold" href="#Onderzoeker">Onderzoeker</a>
+                        <a class="dropdown-item font-weight-bold" href="#Vrijwilliger">Vrijwilliger</a>
+                    </div>
+                </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-navbar-link-text font-weight-bold" href="/jobs">Opleidingen</a>
+                    <a class="nav-link custom-navbar-link-text font-weight-bold" href="#portfolio">Portfolio</a>
                 </li>
                 
                 <li class="nav-item">
-                    <a class="nav-link custom-navbar-link-text font-weight-bold" href="/about">Contact</a>
+                    <a class="nav-link custom-navbar-link-text font-weight-bold" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -75,6 +81,7 @@
 
 @yield('content')
 
+<button onclick="topFunction()" id="TopScrollBtn" title="Top van de pagina"><i class="fas fa-angle-double-up"></i></button> 
 
 <footer class="custom-footer spacer200top">
 <div class="container justify-content-center">
@@ -101,9 +108,6 @@
 </div>
 </footer>
 
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -112,8 +116,57 @@
   
     <!-- animate on scroll script --> 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
         AOS.init();
     </script>
+
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+            document.getElementById("TopScrollBtn").style.display = "block";
+        } else {
+            document.getElementById("TopScrollBtn").style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        } 
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+            } // End if
+        });
+        });
+    </script> 
 
   </body>

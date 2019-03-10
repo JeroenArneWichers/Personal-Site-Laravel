@@ -1,11 +1,5 @@
 /* General Section
 --------------------------------*/
-
-/* body{
-  background-color: #BC9889;
-  color: #252024;
-} */
-
 .spacer200 
 {
   margin:200px;
@@ -126,6 +120,31 @@
   border: 6px black solid;
 }
 
+#custom-eigenschappen-talen
+{
+  background-color: #B46D5A;
+  color: white;
+}
+
+#custom-eigenschappen-ict
+{
+  background-color: rgb(184, 77, 48);
+  color: white;
+}
+
+#custom-eigenschappen-kwaliteiten
+{
+  background-color: #B46D5A;
+  color: white;
+}
+
+.eigenschappen-icon
+{
+  font-size: 8px;
+  border: none;
+  margin: -6px;
+}
+
 
 /* quotes
 --------------------------------*/
@@ -172,8 +191,6 @@
 {
   background-color: #B46D5A;
   color: white;
-  /* width: auto;
-  height: 33px; */
 }
 
 .custom-btn:hover 
