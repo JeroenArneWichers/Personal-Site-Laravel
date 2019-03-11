@@ -6,7 +6,7 @@
 <head>
 
     <!-- My own CSS -->
-    <link href="{{ asset('css/mainpage.css') }}" rel="stylesheet" type="text/css" >
+    <link href="{{ asset('/css/mainpage.css') }}" rel="stylesheet" type="text/css" >
 
 </head>
 
@@ -456,7 +456,7 @@
             <p>Dit is mijn portfolio pagina. Je kunt hier een kort inzicht krijgen op het 
                 werk dat ik tot nu toe gedaan heb. Elke button linkt door naar de Github locatie.</p>
             <p>Of de live Heroku versie, mits deze beschikbaar is. De Heroku versie, wanneer deze een tijdje
-                niet meer gbezocht is, moet enkele momenten hebben om weer uit de slaap stand te komen.
+                niet meer bezocht is, moet enkele momenten hebben om weer uit de slaap stand te komen.
             </p>
         </div>
     </div>
