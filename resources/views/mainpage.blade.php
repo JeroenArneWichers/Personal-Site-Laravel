@@ -186,7 +186,7 @@
                         <h2 class="card-title">ICT VAARDIGHEDEN</h2>
                         <p>Ik ben enkele zeer belangrijke ICT vaardigheden machting.<br><br>
                             Zo heb ik:<br>
-                            &emsp;- Front-end development skills zoals HTML/CSS/Bootstrap/Javascript<br>
+                            &emsp;- Front-end development skills zoals HTML/CSS/Bootstrap/JavaScript<br>
                             &emsp;- Back-end development skills zoals PHP/Laravel/MySQL/Linux<br>
                             &emsp;- General development skills zoals Scrum/IDE/Version control/Cloud deployment<br>
                             &emsp;- Soft skills zoals Self improvement/Communication/Problem solving/Time management</p>
@@ -328,14 +328,14 @@
                         <h2 class="card-title">Junior webdeveloper<br>
                                 CodeGorilla, Enschede<br>
                                 nov 2018 - heden</h2>
-                        <p>Intensieve bootcamp tot junior web developer. Kennis opgedaan en leren werken met 
-                            de vaardigheden van een front- end en back-end developer.</p>
+                        <p>Intensieve bootcamp tot junior webdeveloper. Kennis opgedaan en leren werken met 
+                            de vaardigheden van een front-end en back-end developer.</p>
 
                         </p>Individueel, en in teamverband, gewerkt aan verscheidene projecten:</p>
                                 
                         <p>&emsp;- Webshop: in Laravel, PHP, MySQL, Bootstrap, HTML, CSS en Stripe API.<br>
                             &emsp;- Sociaal klusplatform: in Laravel, PHP, MySQL, Bootstrap, HTML en CSS.<br>
-                            &emsp;- Pong: in Javascript, Bootstrap, HTML en CSS.<br>
+                            &emsp;- Pong: in JavaScript, Bootstrap, HTML en CSS.<br>
                             &emsp;- Romeins Museum: Laravel, Bootstrap, HTML en CSS.</p>
                     </div>
                 </div>
@@ -455,7 +455,9 @@
             <h1 class="text-center">PORTFOLIO</h1>
             <p>Dit is mijn portfolio pagina. Je kunt hier een kort inzicht krijgen op het 
                 werk dat ik tot nu toe gedaan heb. Elke button linkt door naar de Github locatie.</p>
-            <p>Of de live Heroku versie, mits deze beschikbaar is.</p>
+            <p>Of de live Heroku versie, mits deze beschikbaar is. De Heroku versie, wanneer deze een tijdje
+                niet meer gbezocht is, moet enkele momenten hebben om weer uit de slaap stand te komen.
+            </p>
         </div>
     </div>
     <div class="row spacer25top">
@@ -474,7 +476,6 @@
                 <h5 class="card-title">Rekenmachine</h5>
                 <p class="card-text">Digitale rekenmachine gemaakt met JavaScript.</p>
                 <a href="https://github.com/JeroenArneWichers/calculator" target="_blank" class="btn btn-block custom-btn">Github</a>
-                <a href="#" class="btn btn-block custom-btn">Live</a>
             </div>
         </div>
         <div class="card col-md-3 border-0" data-aos="zoom-in-up" data-aos-duration="3000">
@@ -483,7 +484,6 @@
                 <h5 class="card-title">Adresboek</h5>
                 <p class="card-text">Een simpele website gemaakt met JavaScript.</p>
                 <a href="https://github.com/JeroenArneWichers/contactlist-codegorilla" target="_blank" class="btn btn-block custom-btn">Github</a>
-                <a href="#" class="btn btn-block custom-btn">Live</a>
             </div>
         </div>
         <div class="card col-md-3 border-0" data-aos="zoom-in-up" data-aos-duration="2000">

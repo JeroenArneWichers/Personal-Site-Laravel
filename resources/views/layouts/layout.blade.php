@@ -27,8 +27,8 @@
   <header>
     <nav class="navbar navbar-expand-lg custom-navbar-1">
         <a class="navbar-brand custom-navbar-brand-text" href="/">
-            {{-- <img src="../img/layout/nodlogo2.png" id="custom-brand-logo" width =60px height=50px alt=""> --}}
-            <img src="../img/layout/romanleaves.svg" id="custom-brand-logo" width =60px height=50px alt="">
+            <img src="../img/layout/nodlogo3.png" id="custom-brand-logo-nod">
+            {{-- <img src="../img/layout/romanleaves.svg" id="custom-brand-logo-roman" width =60px height=50px alt=""> --}}
             JEROEN ARNE WICHERS
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

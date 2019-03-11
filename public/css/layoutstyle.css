@@ -111,7 +111,17 @@ a:hover
     background-color: #B46D5A; /* Add a dark-grey background on hover */
   } 
 
-  #custom-brand-logo
+  #custom-brand-logo-roman
   {
-      fill: white;
+    fill: white;
+  }
+
+  #custom-brand-logo-nod
+  {
+    fill: white;
+    /* position: absolute; */
+    width: 60px;
+    height: 50px;
+    /* top: 38px;
+    left: 330px; */
   }
