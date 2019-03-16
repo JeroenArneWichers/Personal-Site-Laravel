@@ -467,7 +467,7 @@
                 <h5 class="card-title">Deze site</h5>
                 <p class="card-text">Deze pagina. Gemaakt met Laravel.</p>
                 <a href="https://github.com/JeroenArneWichers/Personal-Site-Laravel" target="_blank" class="btn btn-block custom-btn">Github</a>
-                <a href="#" target="_blank" class="btn btn-block custom-btn">Live</a>
+                <a href="http://jeroenarnewichers.herokuapp.com/" target="_blank" class="btn btn-block custom-btn">Live</a>
             </div>
         </div>
         <div class="card col-md-3 border-0" data-aos="zoom-in-up" data-aos-duration="1500">
@@ -492,7 +492,7 @@
                 <h5 class="card-title">Pong</h5>
                 <p class="card-text">Klassiek spel uit de jaren '70 gemaakt met JavaScript.</p>
                 <a href="https://github.com/JeroenArneWichers/pong" target="_blank" class="btn btn-block custom-btn">Github</a>
-                <a href="https://jw-pong.herokuapp.com/" target="_blank" class="btn btn-block custom-btn">Live</a>
+                <a href="http://jw-pong.herokuapp.com/" target="_blank" class="btn btn-block custom-btn">Live</a>
             </div>
         </div>
     </div>
@@ -503,7 +503,16 @@
                 <h5 class="card-title">Webshop</h5>
                 <p class="card-text">Een webshop met Romeins thema. Gemaakt in Laravel.</p>
                 <a href="https://github.com/JeroenArneWichers/webshop-laravel" target="_blank" class="btn custom-btn btn-block"> Github</a>
-                <a href="https://roman-webshop-laravel.herokuapp.com/" target="_blank" class="btn btn-block custom-btn"> Live</a>
+                <a href="http://roman-webshop-laravel.herokuapp.com/" target="_blank" class="btn btn-block custom-btn"> Live</a>
+            </div>
+        </div>
+        <div class="card col-md-3 border-0" data-aos="zoom-in-up" data-aos-duration="3000">
+            <img src="{{asset('img/welcome/klushulptwente.jpg')}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">KlusHulpTwente</h5>
+                <p class="card-text">Sociaal klusplatform. Gemaakt in teamverband met Laravel.</p>
+                <a href="https://github.com/renedotone/klus-hulp-twente" target="_blank" class="btn btn-block custom-btn">Github</a>
+                <a href="http://klushulptwente.herokuapp.com/" target="_blank" class="btn btn-block custom-btn">Live</a>
             </div>
         </div>
     </div>
@@ -532,7 +541,7 @@
             <a href="https://www.linkedin.com/in/jeroen-wichers-35a55051/" target="_blank" class="fab fa-linkedin mr-2"></a>
             <a href="https://github.com/JeroenArneWichers" target="_blank" class="fab fa-github ml-2"></a>
             </div>
-            @if (count($errors) > 0)
+            {{-- @if (count($errors) > 0)
                 <div class="alert alert-danger spacer25top">
                 <button type="button" class="close" data-dismiss="alert">×</button>
                 <ul>
@@ -565,7 +574,7 @@
                 <div class="form-group">
                     <input type="submit" name="send" class="btn custom-btn btn-block" value="Send" />
                 </div>
-            </form>
+            </form> --}}
         </div>
     </div>
 </div>
